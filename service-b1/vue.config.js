@@ -13,7 +13,7 @@ module.exports = defineConfig({
         name: 'b1',
         filename: 'remoteEntry.js',
         exposes: {
-          './HomeView.vue': './src/views/HomeView.vue',
+          './HomeViewB1.vue': './src/views/HomeViewB1.vue',
         },
         remotes: {
           c: 'c@http://localhost:8083/remoteEntry.js',

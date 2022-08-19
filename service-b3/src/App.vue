@@ -1,10 +1,4 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/service-b1">Service B1</router-link> |
-    <router-link to="/service-b2">Service B2</router-link> |
-    <router-link to="/service-b3">Service B3 (bug)</router-link>
-  </nav>
   <router-view/>
 </template>
 

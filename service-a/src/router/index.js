@@ -19,6 +19,11 @@ const routes = [
     name: 'serviceB2',
     component: () => import('../views/B2View.vue'),
   },
+  {
+    path: '/service-b3',
+    name: 'serviceB3',
+    component: () => import('../views/B3View.vue'),
+  },
 ];
 
 const router = createRouter({

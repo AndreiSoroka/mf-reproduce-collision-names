@@ -1,8 +1,8 @@
 <script setup>
 // eslint-disable-next-line import/no-unresolved
-import HomeView from 'b2/HomeView.vue';
+import HelloWorld from 'c/HelloWorld.vue';
 </script>
 <template>
-  b2
- <HomeView/>
+  <h2>Service B3</h2>
+  <HelloWorld/>
 </template>

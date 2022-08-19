@@ -1,8 +1,8 @@
 <script setup>
 // eslint-disable-next-line import/no-unresolved
-import HomeView from 'b1/HomeView.vue';
+import HomeViewB1 from 'b1/HomeViewB1.vue';
 </script>
 <template>
-  1
- <HomeView/>
+  b1
+ <HomeViewB1/>
 </template>

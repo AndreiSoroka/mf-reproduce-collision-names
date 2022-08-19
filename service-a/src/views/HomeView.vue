@@ -3,9 +3,8 @@
     <img alt="Vue logo" src="../assets/logo.png">
     <div>
       <ol class="home-view__list">
-        <li>Open Dev console</li>
-        <li>Go to the Service B1 page</li>
-        <li>Go to the Service B2 page</li>
+        <li>Go to the Service B3 page</li>
+        <li>Back to Home page (and try to find this message :) )</li>
       </ol>
     </div>
   </div>

@@ -10,10 +10,10 @@ module.exports = defineConfig({
     },
     plugins: [
       new webpack.container.ModuleFederationPlugin({
-        name: 'b2',
+        name: 'b3',
         filename: 'remoteEntry.js',
         exposes: {
-          './HomeView.vue': './src/views/HomeViewB2.vue',
+          './HomeView.vue': './src/views/HomeView.vue',
         },
         remotes: {
           c: 'c@http://localhost:8083/remoteEntry.js',
